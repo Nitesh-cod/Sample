@@ -1,0 +1,973 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.main{
+    width:100vw;
+    height:100vh;
+}
+.common{
+    display: flex;
+    flex-direction: column;
+}
+/*Header starts*/
+
+.header{
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ankers{
+    margin-left: 5rem;
+}
+.ankers a{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.header_icons{
+    margin-right: 5rem;
+}
+.header_icons a{
+    margin-right: 20px;
+}
+
+/*Header end*/
+
+/*Navbar start*/
+
+.navbar{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: .1rem .1rem .2rem grey;
+    border: 1px solid black;
+}
+.navbar a{
+    transition: .3s ease;
+}
+.navbar a:hover{
+    color: rgb(132, 132, 252);
+}
+.first_half,.second_half {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8rem;
+}
+.first_half{
+    margin-left: 30px;
+}
+.second_half{
+    margin-right: 38px;
+}
+.logoimg{
+    width: 4%;
+    height: 100%;
+}
+
+/*Navbar ends*/
+
+/*Section 1 start*/
+
+.section1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgholder1{
+    width: 60%;
+    height: 100%;
+    border-radius: 2rem;
+}
+.section1Img{
+    width: 100%;
+    height: 100%;
+}
+.recharge_section{
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.anchorholder{
+    margin:10px 0 10px 0;
+}
+.anchorholder a{
+    font-size: .8rem;
+    padding: .5rem;
+    display: inline-block;
+}
+
+.anchorholder a:nth-child(1){
+    background-color: rgb(85, 85, 216);
+    border-radius: 1rem;
+    color: #fff;
+}
+.anchorholder a:nth-child(2){
+    margin-left:20px;
+    border-radius: 1rem;
+}
+.mobileNumber{
+    display: block;
+    height: 2rem;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #808080;
+    border-radius: .3rem;
+    margin-bottom: 20px;
+}
+.rechargebtn{
+    width: 35%;
+    height: 12%;
+    border-radius: .5rem;
+    background-color: rgb(101, 101, 226);
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: .1rem .1rem .3rem #808080;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.recharge_section h3{
+    font-size: 1.2rem;
+    color: rgb(114, 112, 112);
+}
+.recharge_section p{
+    font-size: .8rem;
+    margin-bottom: 20px;
+}
+.deliverybtn{
+    display: block;
+    width: 70%;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/*Section 1 end*/
+
+/*Section 2 starts*/
+h1{
+    text-align: center;
+}
+.section2{
+    height: 100%;
+}
+.Prepaid,.Plans{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.PrepaidProducts{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prepaid{
+    margin-left: 20px;
+    text-align: center;
+}
+.PrepaidImg{
+    width: 50%;
+    height:50%;
+    border-radius: 50%;
+}
+.prepaidText{
+    font-weight: bold;
+}
+.PlanCards{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px black;
+}
+.pre{
+    width: 40%;
+    font-size: 1rem;
+    margin: 10px 0 20px 20px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 2rem;
+    text-align: center;
+}
+.ruppes{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.price{
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.priceImg{
+    width: 15%;
+    height: 50%;
+    border-radius: 1rem;
+}
+.valBan,.ban{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.valBan p{
+    font-size: 1.2rem;
+}
+.valBan p:nth-child(1),.ban p:nth-child(1){
+    margin-left: 2rem;
+}
+.ban{
+    margin-top: 1.3rem;
+}
+.ban p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.others{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 0 0 2rem;
+}
+.Cardbtn{
+    width: 40%;
+    height: 12%;
+    background-color: #214796;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: .3rem;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footerA{
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid #0000ff;
+    color:#214796;
+    font-weight: bold;
+}
+/*Section 2 ends*/
+
+/*Section 3 start*/
+
+.section3{
+    height: 70%;
+    margin-top: 10rem;
+  
+}
+.JioPhone{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1852A5;
+}
+.Phoneimg{
+    width: 50%;
+    height: 100%;
+    margin-top: -3rem;
+}
+.PhoneInfo{
+    width: 25%;
+    height: 80%;
+    margin: 3rem 5rem 0 0 ;
+}
+.PhoneInfo h2{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 1000;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: .3rem;
+}
+.text{
+    padding: .3rem .5rem;
+    border-radius: 1rem;
+    margin:0 0 1rem 4rem;
+    background-color: #fff;
+    color: #ff4500;
+}
+.offerInfo{
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offerInfo h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.year{
+    width: 45%;
+    padding: .2rem 0;
+    color: #fff;
+    background-color: #103466;
+    border-radius: 3rem;
+    margin-right: 1rem;
+}
+.year p{
+    margin-left: 1rem;
+}
+.year p:nth-child(2){
+    display: inline-block;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+.btn{
+    padding: .7rem 1rem;
+    background-color: #1852A5;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: .8rem;
+    font-weight: bold;
+
+}
+.btn:nth-child(1):hover,.btn:nth-child(2){
+    background-color: #fff;
+    color: #1852A5;
+}
+.btn:nth-child(2):hover{
+    background-color: #1852A5;
+    color: #fff;
+}
+
+/*Section 3 end*/
+
+/*Section 4 start*/
+
+.section4{
+    height: 100%;
+}
+.Partner{
+    margin: 3rem;
+}
+.Partner h1{
+    font-size: 2.5rem;
+}
+.Partner b{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: .5re;
+    word-spacing: .5rem;
+}
+.PartnersHolder{
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.Brand{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 1rem;
+}
+.Brand h1{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.imgholder{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 2rem;
+}
+.Brand img{
+    width: 25%;
+    height: 20%;
+    margin: 2rem 0 0 1.5rem;
+}
+/*Section 4 end*/
+
+/*Section 5 start*/
+
+.section5{
+    height: 82%;
+}
+.Holder{
+    width: 98%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.Apps{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Apps img{
+    width: 100%;
+    height: 50%;
+}
+.info{
+    height: 50%;
+    background-color: #ff4500;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.info h4{
+    display: inline;
+    font-size: 2.5rem;
+    padding: .7rem .2rem;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #ff4500;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.info h5{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.info p{
+    text-align: center;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.info a{
+    background-color: #fff;
+    color: rgb(118, 118, 235);
+    padding: .7rem 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid #fff;
+}
+.info a:hover{
+    color: #fff;
+    background-color: #ff4500;
+}
+
+
+/*Section 5 end*/
+
+/*Section 6 start*/
+
+.section6{
+    height: 90%;
+}
+.OTT{
+    width: 99%;
+    height: 80%;
+    border: 1px solid green;
+    background: url(../img/background-img-ott-desktop-compressed.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.OTTImg{
+    width: 40%;
+    height: 80%;
+}
+.JioFibre{
+    height: 80%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.JioFibre img{
+    width: 35%;
+    height: 25%;
+}
+.JioFibre h4{
+    font-size: 2rem;
+}
+.JioFibre a{
+    font-weight: bold;
+    padding: .7rem 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #0c4464;
+}
+.JioFibre a:hover{
+    background: transparent;
+    color: #fff;
+}
+/*Section 6 end*/
+
+/*Section 7 start*/
+
+.section7{
+    height: 50%;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.Others{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.Otherimg{
+    width: 100%;
+    height: 100%;
+}
+.othersInfo{
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.same{
+    font-family: itsme;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.othersInfo p{
+    margin-top: .5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.othersInfo b{
+    color: #2193D6;
+}
+.othersInfo a{
+    width: 50%;
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #2193D6;
+    padding: .7rem 3rem;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    background-color: #fff;
+
+}
+.othersInfo a:hover{
+    color: #fff;
+    background-color: transparent;
+}
+/*Section 7 end*/
+
+/*Section 8 start*/
+
+.section8{
+    height: 60%;
+    margin-top: 2rem;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+    display: flex;
+    justify-content: space-around;
+}
+.sameStyle{
+    width: 12%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.sameStyle h3{
+    margin-bottom: 1rem;
+}
+.sameStyle a{
+    margin-top: 1rem;
+}
+.second{
+    height: 80%;
+}
+.fab{
+    font-size: 15px;
+    color:#fff ;
+    padding: .7rem;
+    margin: .3rem .6rem 0 0;
+    background-color:#214796 ;
+    border-radius: 2rem;
+}
+.fa-youtube{
+    width: 25%;
+}
+/*Section 8 end*/
+
+
+
+/*Responsive*/
+
+@media screen and (max-width:1300px){
+    /*section 1*/
+    .rechargebtn{
+        margin-bottom: .5rem;
+    }
+    .recharge_section p{
+        margin-bottom: .5rem;
+    }
+    .deliverybtn{
+        margin-top: .5rem;
+    }
+    /*section 2*/
+    .card{
+        width: 22%;
+        height: 105%;
+    }
+    .ban{
+        margin-top: .3rem;
+    }
+    .others{
+        margin-top: .2rem;
+    }
+    .footer{
+        margin: 1rem;
+    }
+    /*section 5*/
+    .info h4{
+        font-size: 1.8rem;
+        padding:.5rem .2rem;
+    }
+    .info h5{
+        margin-top: 1.5rem;
+    }
+    .info a{
+        padding: .5rem 1rem;
+    }
+    /*section 8*/
+    .section8{
+        height: 85%;
+    }
+}
+
+@media  screen and (max-width:1024px) {
+    /*section 1*/
+    .anchorholder{
+        margin: 5px 0;
+    }
+    .mobileNumber{
+        margin-bottom: .5rem;
+    }
+    .rechargebtn{
+        margin-bottom: .2rem;
+    }
+    .deliverybtn{
+        padding: 10px 5px;
+    }
+    /*section 2*/
+    .pre{
+        width: 40%;
+        font-size: .9rem;
+        padding: .2rem ;
+        margin-left: .5rem;
+    }
+    .ruppes{
+        font-size: 2rem;
+    }
+    .price{
+        height: 15%;
+    }
+    .priceImg{
+        width: 17%;
+        height: 90%;
+    }
+    .ban{
+        margin-top: .5rem;
+    }
+    .ban p{
+        font-size: 1rem;
+    }
+    .others{
+        margin: .5rem 0 0 2rem;
+    }
+    /*section 3*/
+    .PhoneInfo{
+        width: 30%;
+    }
+    .PhoneInfo h2{
+        font-size: 2rem;
+        margin-bottom: .1rem;
+    }
+    .text{
+        margin:0 0 .7rem 3.5rem;
+    }
+    /*section 4*/
+    .Brand img{
+        width: 25%;
+        height: 20%;
+        margin: 1.5rem 0 0 .7rem;
+    }
+    /*section 5*/
+    .info h4{
+        font-size: 1.2rem;
+        padding: .5rem .2rem;
+    }
+    .info h5{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .info p{
+        font-size: 12px;
+    }
+    .info a{
+        padding: .4rem 1rem;
+    }
+    /*section 6*/
+    .JioFibre p{
+        width: 65%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    /*section 7*/
+    .same{
+        font-size: 1.7rem;
+    }
+    .othersInfo{
+        height: 70%;
+    }
+    .othersInfo a{
+        width: 40%;
+        padding: .5rem 1rem;
+    }
+    /*section 8*/
+    .section8{
+        height: 75%;
+    }
+    .sameStyle a{
+        margin-top: .5rem;
+    }
+    .fa-youtube{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    /*header*/
+    .ankers a{
+        font-size: .8rem;
+    }
+    /*navbar*/
+    .navbar{
+        height: 5%;
+    }
+    .first_half,.second_half {
+        font-size: .7rem;
+    }
+    .first_half{
+        margin-left: 10px;
+    }
+    .second_half{
+        width: 50%;
+        margin-right: 0px;
+    }
+    /*section 1*/
+    .section1{
+        width: 100%;
+        height: 150%;
+        flex-direction: column;
+    }
+    .outer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgholder1{
+        width: 90%;
+        height: 60%;
+    }
+    .section1Img{
+        border-radius: 1rem;
+    }
+    .recharge_section{
+        width: 70%;
+        height: 40%;
+        padding: .5rem 8rem;
+    }
+    .rechargebtn{
+        margin:10px 0 20px 0;
+    }
+    /*section 2*/
+    .pre{
+        width: 50%;
+        font-size: .7rem;
+        padding: .5rem .2rem;
+        margin-left: .5rem;
+    }
+    .ruppes{
+        font-size: 1.5rem;
+    }
+    .price{
+        height: 15%;
+    }
+    .priceImg{
+        width: 17%;
+        height: 70%;
+    }
+    .valBan p{
+        font-size: 1rem;
+    }
+    .ban p{
+        font-size: 1rem;
+    }
+    .Cardbtn{
+        width: 60%;
+        height: 12%;
+    }
+    /*section 3*/
+    .PhoneInfo{
+        height: 70%;
+        margin: 2rem 5rem 0 0 ;
+    }
+    .text{
+        font-size: .8rem;
+        padding: .1rem .3rem;
+        margin:0 0 .7rem 2.5rem;
+    }
+    .offerInfo{
+        margin-top: 2rem;
+    }
+    .offerInfo h3{
+        font-size: 2rem;
+    }
+    .year{
+        width: 50%;
+        padding: .2rem .5rem;
+        margin-right: .5rem;
+    }
+    .year p{
+        font-size: .8rem;
+        margin-left: .5rem;
+    }
+    .btns{
+        margin-top: 2rem;
+    }
+    .btn{
+        padding: .5rem .8rem;
+    }
+    /*section 5*/
+    .info p{
+        font-size: .7rem;
+    }
+    .info a{
+        padding: .5rem .8rem;
+    }
+    /*section 7*/
+    .same{
+        font-size: 1.2rem;
+    }
+    .othersInfo{
+        width: 100%;
+        height: 70%;
+        left: 0rem;
+        bottom: 0rem;
+    }
+    .othersInfo p{
+        margin-top: .5rem;
+        font-size: 1rem;
+    }
+    .othersInfo a{
+        width: 40%;
+        font-size: .8rem;
+        padding: .5rem .2rem;
+    
+    }
+    /*section 8*/
+    .sameStyle a{
+        margin-top: .5rem;
+        font-size: .9rem;
+    }
+    .fa-youtube{
+        width: 39%;
+        display: block;
+    }
+}
+
+@media screen and (max-width:600px){
+    .Prepaid,.Plans{
+        width: 125%;
+        height: 10%;
+    }
+    .responsive{
+        width: 135%;
+    }
+    /*header*/
+    .header{
+        width: 140%;
+    }
+    /*section 1*/
+    .section1{
+        margin-top:1rem;
+    }
+    .outer{
+        justify-content: space-evenly;
+    }
+    .imgholder1{
+        width: 90%;
+        height: 40%;
+    }
+    .recharge_section{
+        width: 70%;
+        height: 40%;
+        padding: 1rem 4rem;
+    }
+    .deliverybtn{
+        padding: 10px 8px;
+    }
+    /*section 2*/
+    .card{
+        width: 30%;
+    }
+    .others p{
+        font-size: .9rem;
+    }
+    /*section 8*/
+    .fa-instagram{
+        display: block;
+        width: 37%;
+    }
+}
+/*responsive end*/
